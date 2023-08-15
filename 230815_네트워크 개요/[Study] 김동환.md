@@ -127,7 +127,10 @@
       - FDM(Frequency Division Multiflex, 주파수 분할 다중 전송 방식)<br/>
         : 주파수별로 유저를 할당
       - TDM(Time Division Multiflex, 시간 분할 다중 전송 방식)<br/>
-        : 시간별로 유저를 할당
+        : 시간별로 유저를 할당<br>
+        
+        ![image](https://github.com/spharos3rd-CatchYou/Network/assets/108791919/d46db49d-cfd6-4079-a01c-efd4af055f7d)
+
 
   - Packet Switching
     - 데이터가 한번에 전송되는 것이 아니라, 여러 개의 패킷으로 나뉘어서 전송됨
@@ -141,6 +144,11 @@
        (L(bit):패킷사이즈, R(bps):링크의 시간당 전송능력)
       - 전체 지연 시간(전체 전달시간) End-to-End delay = hop count * T(s)<br>
       (hop: source부터 destination까지의 경로상에 존재하는 장치들, hot count: 경로상에 존재하는 hop의 수)
+<br>
+
+![image](https://github.com/spharos3rd-CatchYou/Network/assets/108791919/c6e55ae4-bb91-44ea-bbe7-33d179723892)
+
+<br>
 
   - 서킷/패킷 스위칭 비교
     - 서킷 스위칭 -> 한 경로당 할당된 자원이 일정하게 유지되기에, 유저 입장에서 더 좋다
