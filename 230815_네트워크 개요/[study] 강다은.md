@@ -66,7 +66,7 @@ OSI 7
 4 전송 계층(Transport Layer)
 
 - 전송단위 : TCP-Segment, UDP-datagram
-- 프로토콜 : TCP, UDP, SPX, SCTP, NetBEUI, RTP, ATP, NBP, AEP, OSPF게이트웨이
+- 프로토콜 : TCP, UDP, SPX, SCTP, NetBEUI, RTP, ATP, NBP, AEP, OSPF
     
     
 
