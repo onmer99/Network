@@ -65,6 +65,15 @@
     4. 장치 : 통신 케이블, 리피터, 허브 등 
     
 
+참고 :데이터 링크계층과 전송계층의 차이 
+
+- 데이터 링크 계층과 차이점
+    
+    ![https://naon.me/media/network62.JPG](https://naon.me/media/network62.JPG)
+    
+- 데이터 링크 계층은 **물리적으로 1:1 연결**된 호스트 사이의 전송. 직접 묶여있는 호스트-노드 또는 노드-노드 사이에서 오류 제어, 흐름 제어
+- 전송 계층은 **논리적으로 1:1 연결**된 송신과 수신 호스트 사이의 전송. **End to End(종단간) 호스트**로, 양 끝에 있는 호스트 사이에서 오류 제어, 흐름 제어
+
 ## OSI 7계층 경로
 
 ---
@@ -73,4 +82,4 @@
 
 수신 : host ← 응용 ← 표현 ← 세션 ← 전송 ← 네트워크 ← 데이터 링크 ← 물리 (역캡슐화) 
 
-![Untitled](https://github.com/spharos3rd-CatchYou/Network/assets/87631575/a8e398a0-e54d-4821-a7b9-28d7c5462577)
+![Untitled](https://github.com/spharos3rd-CatchYou/Network/assets/87631575/3f1ac285-5199-43d8-a2ac-c5432ee91a9f)
