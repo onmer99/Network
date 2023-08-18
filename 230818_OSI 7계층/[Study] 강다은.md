@@ -73,4 +73,4 @@
 
 수신 : host ← 응용 ← 표현 ← 세션 ← 전송 ← 네트워크 ← 데이터 링크 ← 물리 (역캡슐화) 
 
-![Untitled](OSI%207%E1%84%80%E1%85%A8%E1%84%8E%E1%85%B3%E1%86%BC%201903979f421e4e2a894cf7f18b860889/Untitled.png)
+![Untitled](https://github.com/spharos3rd-CatchYou/Network/assets/87631575/a8e398a0-e54d-4821-a7b9-28d7c5462577)
