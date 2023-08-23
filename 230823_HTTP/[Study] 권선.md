@@ -16,9 +16,9 @@ Accept-Encoding: gzip, deflate
 Connection: keep-alive
 ```
 
-GET: 사용된 HTTP 메서드입니다.
-/index.html: 웹 서버에 요청되는 리소스의 경로입니다.
-Host, User-Agent, Accept 등: HTTP 헤더들이며, 요청에 대한 추가적인 정보를 제공합니다.
+GET: 사용된 HTTP 메서드입니다.  
+/index.html: 웹 서버에 요청되는 리소스의 경로입니다.  
+Host, User-Agent, Accept 등: HTTP 헤더들이며, 요청에 대한 추가적인 정보를 제공합니다.  
 
 
 - HTTP 응답 예시
@@ -41,9 +41,9 @@ Connection: Closed
 </html>
 ```
 
-HTTP/1.1 200 OK: HTTP 버전과 상태 코드 및 상태 메시지입니다.
-Date, Server, Content-Length 등: HTTP 헤더들이며, 응답에 대한 추가적인 정보를 제공합니다.
-<html>...</html>: HTML 본문이며, 브라우저가 해석하고 사용자에게 보여줄 내용입니다.
+HTTP/1.1 200 OK: HTTP 버전과 상태 코드 및 상태 메시지입니다.  
+Date, Server, Content-Length 등: HTTP 헤더들이며, 응답에 대한 추가적인 정보를 제공합니다.  
+<html>...</html>: HTML 본문이며, 브라우저가 해석하고 사용자에게 보여줄 내용입니다.  
 
 
 3. **HTTP와 TCP의 관계?**
