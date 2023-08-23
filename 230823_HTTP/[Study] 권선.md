@@ -62,7 +62,7 @@ Date, Server, Content-Length 등: HTTP 헤더들이며, 응답에 대한 추가�
 HTTP는 TCP 위에서 동작하여, TCP의 신뢰성 있는 전송 메커니즘을 활용합니다.
 </details>
 
-<detals>
+<details>
 	<summary>- 예시</summary>
 웹 브라우저에서 "http://www.example.com"에 접속하려고 할 때 발생하는 과정:
 
