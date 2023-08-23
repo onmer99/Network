@@ -5,8 +5,7 @@
    - HTTP는 클라이언트-서버 모델에 기반하며, 클라이언트(대개 웹 브라우저)가 서버에 요청을 보내면 서버가 해당 요청에 응답합니다.
    - 요청과 응답은 HTTP 메시지로 구성되며, 이 메시지는 시작줄, 헤더, 빈 줄, 그리고 선택적인 본문으로 이루어져 있습니다.
 
-<details>
-   <summary>- HTTP 요청 예시</summary>
+- HTTP 요청 예시
 ```
 GET /index.html HTTP/1.1
 Host: www.example.com
@@ -20,10 +19,9 @@ Connection: keep-alive
 GET: 사용된 HTTP 메서드입니다.
 /index.html: 웹 서버에 요청되는 리소스의 경로입니다.
 Host, User-Agent, Accept 등: HTTP 헤더들이며, 요청에 대한 추가적인 정보를 제공합니다.
-</details>
 
-<details>
-   <summary>- HTTP 응답 예시</summary>
+
+- HTTP 응답 예시
 ```
 HTTP/1.1 200 OK
 Date: Mon, 27 Jul 2020 12:28:53 GMT
@@ -46,7 +44,7 @@ Connection: Closed
 HTTP/1.1 200 OK: HTTP 버전과 상태 코드 및 상태 메시지입니다.
 Date, Server, Content-Length 등: HTTP 헤더들이며, 응답에 대한 추가적인 정보를 제공합니다.
 <html>...</html>: HTML 본문이며, 브라우저가 해석하고 사용자에게 보여줄 내용입니다.
-</details>
+
 
 3. **HTTP와 TCP의 관계?**
    - HTTP는 응용 계층의 프로토콜이며, 실제 데이터 전송을 처리하는 것은 전송 계층의 TCP (Transmission Control Protocol)입니다. 즉, HTTP는 데이터의 형식과 메시지 교환 방법을 정의하고, TCP는 데이터를 신뢰성 있게 전송합니다.
@@ -105,8 +103,7 @@ Content-Type: text/html
    - HTTPS는 SSL (Secure Sockets Layer) 또는 TLS (Transport Layer Security)를 사용하여 데이터를 암호화합니다. 이로 인해 중간자 공격 (Man-in-the-Middle Attack) 또는 데이터 가로채기와 같은 보안 위협으로부터 통신 내용을 보호합니다.
    - HTTPS를 사용하면 클라이언트와 서버 간의 모든 HTTP 통신이 암호화되어 안전하게 전송됩니다.
 
-<details>
-	<summary>- 예시</summary>
+
 ```
 요청
 [암호화된 메시지]
@@ -128,4 +125,4 @@ Server: Apache/2.2.14 (Win32)
 </body>
 </html>
 ```
-</details>
+
