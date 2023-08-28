@@ -10,7 +10,7 @@
 
 ◆ 홈 네트워크 구성  
 인터넷 – 케이블 – 모뎀(네트워크장비) – 케이블 – 공유기 – 케이블/매체 – 단말기  
-![image](https://github.com/spharos3rd-CatchYou/Network/assets/120145637/e98f69d1-2118-4bb9-96e4-2f5a3fd80bf4)
+![image](https://github.com/spharos3rd-CatchYou/Network/assets/120145637/f5b3ad00-278b-4e00-8732-c7f08a61c55c)
 
 우리집 예시  
 ![image](https://github.com/spharos3rd-CatchYou/Network/assets/120145637/3d3c62ca-b5b0-470f-ac51-2b16d1d6ab3e)
@@ -52,7 +52,8 @@ Ex) HTTP, SMTP
  
 TCP/IP는 별도 계층에서 동작하는 프로토콜이지만 함께 사용하기 때문에 이런 프로토콜 묶음(집합)을 프로토콜 스택이라고 부른다.  
 → TCP, IP 이외에도 UDP, ICMP, ARP, HTTP, SMTP, FTP등 다양한 애플리케이션 레이어 프로토콜들이 있다.  
-![image](https://github.com/spharos3rd-CatchYou/Network/assets/120145637/f5b3ad00-278b-4e00-8732-c7f08a61c55c)
+![image](https://github.com/spharos3rd-CatchYou/Network/assets/120145637/e98f69d1-2118-4bb9-96e4-2f5a3fd80bf4)
+
  
  
 ## OSI 7계층과 TCP/IP 스택
