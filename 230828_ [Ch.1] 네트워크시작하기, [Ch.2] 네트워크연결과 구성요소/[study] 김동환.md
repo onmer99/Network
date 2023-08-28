@@ -59,8 +59,7 @@
             - 가입자-통신사업자는 이더넷을 사용, 통신사업자 내부에서는 다른 고속 통신 기술을 사용
             - LLCF 설정을 하지 않는다면, 한쪽에서 에러가 나더라도 반대쪽에서 감지하지 못함
             - 인터넷 전용 회선에서 많이 쓰임
-                
-                ![Untitled](2%E1%84%8C%E1%85%A1%E1%86%BC%20%E1%84%82%E1%85%A6%E1%84%90%E1%85%B3%E1%84%8B%E1%85%AF%E1%84%8F%E1%85%B3%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%80%E1%85%A7%E1%86%AF%E1%84%80%E1%85%AA%20%E1%84%80%E1%85%AE%E1%84%89%E1%85%A5%E1%86%BC%E1%84%8B%E1%85%AD%E1%84%89%E1%85%A9%20bc6b00c66f5a44478158adafab782262/Untitled.png)
+                ![image](https://github.com/spharos3rd-CatchYou/Network/assets/108791919/53d8e63c-0087-43cc-8b21-decc92d0da95)
                 
     - DWDM (Dense Wavelength Division Multiplex, 파장 분할 다중화)
         - 하나의 광케이블에 다른 파장의 빛을 통해 여러 채널을 만드는 동시에 많은 데이터를 전송할 수 있게 해줌
