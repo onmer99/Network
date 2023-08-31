@@ -1,9 +1,3 @@
-# TCP와 UDP의 차이
-
-연간 계획: CS 스터디 (https://www.notion.so/CS-85d767c0f2184439b4a2e1f5dd84b108?pvs=21)
-복습: No
-생성일시: 2023년 8월 30일 오후 1:11
-
 ## TCP와 UDP의 차이
 
 ![화면 캡처 2023-08-31 131655](https://github.com/spharos3rd-CatchYou/Network/assets/87631575/abb5ce79-e450-449b-9114-23376547e9df)
