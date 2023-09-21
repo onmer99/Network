@@ -100,3 +100,5 @@ https://velog.io/@ylyl/TIL-web-operations
 [3-2. 전송(Transport) 계층: 신뢰성 있는 데이터 전송(RDT)](https://dev-nicitis.tistory.com/27)
 
 [[인터넷 프로토콜] TCP란 무엇인가? 패킷 전송을 위한 정보의 관점에서 보는 TCP(Transmission Control Protocol) — 조세영의 Kotlin World](https://kotlinworld.com/94)
+
+https://limjunho.github.io/2021/06/05/UDP-cksum.html (checksum관련 자료)
