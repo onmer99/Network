@@ -1,8 +1,3 @@
-# 대칭키, 비대칭키 암호화 방식 + JWT 토큰
-
-대칭키, 비대칭키 암호화 방식에 대해 설명해주세요.
-JWT 토큰에 대해 설명해주세요.
-
 - 대칭키
     - 데이터 암호화, 복호화 과정에서 동일한 키를 사용하는 기술
     - 속도 : 빠름, 따라서 대용량 데이터 처리에 유리
@@ -29,8 +24,8 @@ Header, Payload, Signature로 이루어져 있으며, 각각은 한 문장에서
         
         ```json
         {
-        	"typ" : 토큰의 유형(일반적으로 JWT),
-        	"alg" : 암호화 알고리즘(RSA, HMAC SHA256 등)이 포함됨
+        	"typ" : "토큰의 유형(일반적으로 JWT)",
+        	"alg" : "암호화 알고리즘(RSA, HMAC SHA256 등)이 포함됨"
         }
         ```
         
@@ -39,13 +34,13 @@ Header, Payload, Signature로 이루어져 있으며, 각각은 한 문장에서
             
             ```json
             {
-            	"iss" : issuer, 토큰 발급자를 의미
-            	"sub" : subject, 토큰 제목을 의미
-            	"aud" : audience, 토큰 대상자를 의미
-              "iat" : issuedAt, 토큰 발급 시간을 의미
-              "exp" : expiration, 토큰 만료 시간을 의미
-              "nbf" : not before, 토큰활성날짜를 의미. 이 날이 지나야 토큰이 활성화된다
-            	"jti" : jwt id, 토큰 식별자를 의미. 줒ㅇ복 방지를 위해 사용하며, 일회용 토큰(like AccessToken)등에 사용된다
+            	"iss" : "issuer, 토큰 발급자를 의미",
+            	"sub" : "subject, 토큰 제목을 의미",
+                "aud" : "audience, 토큰 대상자를 의미",
+                "iat" : "issuedAt, 토큰 발급 시간을 의미",
+                "exp" : "expiration, 토큰 만료 시간을 의미",
+                "nbf" : "not before, 토큰활성날짜를 의미. 이 날이 지나야 토큰이 활성화된다",
+            	"jti" : "jwt id, 토큰 식별자를 의미. 줒ㅇ복 방지를 위해 사용하며, 일회용 토큰(like AccessToken)등에 사용된다"
             }
             ```
             
@@ -53,7 +48,7 @@ Header, Payload, Signature로 이루어져 있으며, 각각은 한 문장에서
             
             ```json
             { 
-            	"https://mangkyu.tistory.com": true
+            	"https://mangkyu.tistory.com": "true"
             }
             ```
             
