@@ -31,7 +31,12 @@
 
 ![image-20231012131607833](C:\Users\교육생\AppData\Roaming\Typora\typora-user-images\image-20231012131607833.png)
 
+![image-20231012132729913](C:\Users\교육생\AppData\Roaming\Typora\typora-user-images\image-20231012132729913.png)
+
+
+
 ## PUT 방식
+
 PUT 메서드는 리소스 전체를 대체한다. 기존 리소스가 없을 경우 새로 생성한다. 즉, 덮어쓰기를 수행한다고 볼 수 있다. POST와 차이점은 클라이언트가 리소스의 위치를 알고 URI를 명시해야 한다는 점이다.
 
 
